@@ -1,0 +1,21 @@
+# Große Datensätze und Zwischenstände blockieren
+**/Dataset/
+**/Zwischenergebnisse/
+
+# Riesige Videodateien (Recordings) komplett ignorieren
+**/Recordings/
+
+# Uni-Hilfsmaterialien und Vorlagen ausblenden
+**/Literatur (seitens Lehrstuhl)/
+**/Vorlagen/
+**/Wissenschaftlich arbeiten*/
+**/Zitation*/
+**/Theoretical Foundation/
+
+# Screenshots und PowerBI-Temporärdateien blockieren
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.pbids
+# Trainierte Machine Learning Modelle ignorieren
+**/*.joblib
